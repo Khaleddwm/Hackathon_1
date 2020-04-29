@@ -1,11 +1,11 @@
 {
     "name": "wcs/hackathon_1",
-    "type": "n",
-    "license": "n",
+    "type": " ",
+    "license": " ",
     "authors": [
         {
-            "name": "moshtagh",
-            "email": "moshtagh.fr@gmail.com"
+            "name": "yourname",
+            "email": "yourémail@exemple.com"
         }
     ],
     "require": {},
