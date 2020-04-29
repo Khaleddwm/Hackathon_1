@@ -1,0 +1,12 @@
+{
+    "name": "khaled/hackathon_1",
+    "authors": [
+        {
+            "name": "khaleddwm",
+            "email": "benk.devweb@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^5.0"
+    }
+}
