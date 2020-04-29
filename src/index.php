@@ -8,6 +8,7 @@
     <title>Movie Trip</title>
 </head>
 <body>
+<header></header>
 
 <nav class="navbar navbar-expand-lg">
   <a class="navbar-brand" href="#">MovieTrip</a>
@@ -37,6 +38,47 @@
     </form>
   </div>
 </nav>
+
+</header>
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+  <h1 class="display-4">Vos envies de voyages sont mis à mal durant cette période de confinement ?</h1>
+  <img src="https://images.unsplash.com/photo-1567016515344-5e3b0d67bb75?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="...">
+    <p class="lead">Voyagez tranquillement depuis votre salon grace à Movie Trip. Profitez d'une séléction de reportage et de documentaire pour vous faire voyager et rêver.</p>
+    <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Découvrez notre sélection</a>
+  </p>
+  </div>
+</div>
+​
+<footer>
+<div class="card text-center">
+  <div class="card-footer">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Movie trip</h5>
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Conditions d'utilisations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Politiques de confidentialité</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">API</a>
+          </li>
+      </ul>
+    <a href="#" class="btn btn-primary">Contactez nous</a>
+  </div>
+  <div class="card-footer text-muted">
+  </div>
+</div>
+​
+</footer>
 
 </body>
 </html>
