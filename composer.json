@@ -1,0 +1,17 @@
+{
+    "name": "wcs/hackathon_1",
+    "type": "n",
+    "license": "n",
+    "authors": [
+        {
+            "name": "moshtagh",
+            "email": "moshtagh.fr@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\":"/src"
+        }
+    }
+}
