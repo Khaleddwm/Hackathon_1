@@ -1,6 +1,6 @@
 <?php
 // Api Key
-$ApiKey = b0d82ea299ca78abff5d31babb3ae18d;
+
 
 $curl = curl_init('https://api.themoviedb.org/3/tv/139?api_key=b0d82ea299ca78abff5d31babb3ae18d');
 curl_setopt($curl, CURLOPT_CAINFO,__DIR__.DIRECTORY_SEPARATOR . 'cert.cer');
