@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="/public/assets/style.css">
     <title>Movie Trip</title>
@@ -15,6 +16,7 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
         <h1 class="display-4">Vos envies de voyages sont mis à mal durant cette période de confinement ?</h1>
+        <p class="lead">Voyagez tranquillement depuis votre salon grace à Movie Trip. Profitez d'une séléction de reportage et de documentaire pour vous faire voyager et rêver.</p>
         <?php
         for ($i = 0; $i < count($documentaireMovie); $i++){
             $urlKey = $url . $documentaireMovie[$i] . $key;
