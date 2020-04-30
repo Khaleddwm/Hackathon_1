@@ -18,7 +18,7 @@
   <img src="" class="card-img-top" alt="...">
     <p class="lead">Voyagez tranquillement depuis votre salon grace à Movie Trip. Profitez d'une séléction de reportage et de documentaire pour vous faire voyager et rêver.</p>
     <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Découvrez notre sélection</a>
+    <a class="btn btn-primary btn-lg" href="trip.php" role="button">Découvrez notre sélection</a>
   </p>
   </div>
 </div>
