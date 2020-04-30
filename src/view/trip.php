@@ -29,8 +29,10 @@
             $data = json_decode($data, true);
             }
         ?>
-        <a  target="_blank "href="<?= $urlMovie . $documentaireMovie[$i] ?>"><img src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..."></a>
+        
+        <a  target="_blank "href="<?= $urlMovie . $documentaireMovie[$i] ?>"><img src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..." style="  padding-bottom: 20px;padding-top: 20px;"></a>
         <?php } ?>
+        
         <?php include_once 'TripTv.php' ?>
         <?php
             for ($i = 0; $i < count($documentaireTv); $i++){
@@ -45,8 +47,11 @@
                 $data = json_decode($data, true);
                 }
                 ?>
-                <a href="<?= $urlTv . $documentaireTv[$i] ?>"><img src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..."></a>
+              
+                <a href="<?= $urlTv . $documentaireTv[$i] ?>"><img  src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..." style="padding-bottom: 20px; padding-top: 20px;"></a>
             <?php } ?>
+            
+        
     </div>
 </div>
 
