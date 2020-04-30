@@ -29,8 +29,8 @@
 </header>
 <!-- fin header -->
 <?php
-$input=$_GET['search'];
-$channel=$_GET['channel'];
+$input=!empty($_POST['search']) ? $_POST['search'] : '';
+$channel=!empty($_POST['channel']) ? $_POST['channel'] : '';
 $search=$input;
 $apikey = "d1ef408bd1f0bcbea188be92af01fcf8";
 $sitename = "Movie trip";
@@ -50,7 +50,7 @@ $response17 = curl_exec($cs);
 curl_close($cs);
 $search = json_decode($response17);
  ?>
-// mettre contenu ici
+
 <h3>Result Search: <em><?php echo $input?></em></h3>
     <hr>
     <ul>
