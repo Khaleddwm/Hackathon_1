@@ -11,6 +11,17 @@
   body {
     z-index: 1;
     background-color: #e9ecef;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;  
+ }
+
+ .jumbotron{
+   background-image: url('images/background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center; 
  }
   
  .navbar {
