@@ -10,11 +10,26 @@
 
   body {
     z-index: 1;
+    background-color: #e9ecef;
  }
   
  .navbar {
     position: fixed;
     z-index: 2;
+ }
+ .form-inline {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.navbar-brand{
+  color: lightgrey;
+  font-weight: bolder
+}
+.nav-link {
+  color: lightgrey;
+  font-weight: bolder
+}
  }
   footer {
     background-color: #333;
