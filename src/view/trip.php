@@ -28,7 +28,7 @@
             $data = json_decode($data, true);
             }
         ?>
-        <a href="<?= $urlMovie . $documentaireMovie[$i] ?>"><img src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..."></a>
+        <a href="<?= $urlMovie . $documentaireMovie[$i] ?>" target="_blank"><img src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..."></a>
         <?php } ?>
         <?php include_once 'TripTv.php' ?>
         <?php
@@ -44,7 +44,7 @@
                 $data = json_decode($data, true);
                 }
                 ?>
-                <a href="<?= $urlTv . $documentaireTv[$i] ?>"><img src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..."></a>
+                <a href="<?= $urlTv . $documentaireTv[$i] ?>" target="_blank"><img src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..."></a>
             <?php } ?>
     </div>
 </div>

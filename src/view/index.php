@@ -12,13 +12,17 @@
 <?php include_once 'nav.php'; ?>
 
 <div class="jumbotron jumbotron-fluid">
-  <div class="container">
-  <h1 class="display-4">Vos envies de voyages sont mis à mal durant cette période de confinement ?</h1>
-  <img src="https://images.unsplash.com/photo-1567016515344-5e3b0d67bb75?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="...">
-    <p class="lead">Voyagez tranquillement depuis votre salon grace à Movie Trip. Profitez d'une séléction de reportage et de documentaire pour vous faire voyager et rêver.</p>
-    <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Découvrez notre sélection</a>
-  </p>
+  <div class="container-fluid">
+    <h1 class="display-4">Vos envies de voyages sont mis à mal durant cette période de confinement ?</h1>
+      <div class="d-flex justify-content-center">
+        <iframe  class="col-4" width="560" height="315" src="https://www.youtube.com/embed/L_JJl_X4Yno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="col-4" width="560" height="315" src="https://www.youtube.com/embed/Pm6XoBGbB5I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="col-4" width="560" height="315" src="https://www.youtube.com/embed/eFhqTD0qouw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+        <p class="lead">Voyagez tranquillement depuis votre salon grace à Movie Trip. Profitez d'une séléction de reportage et de documentaire pour vous faire voyager et rêver.</p>
+        <p class="lead"></p>
+        <a class="btn btn-primary btn-lg" href="trip.php" role="button">Découvrez notre sélection</a>
+  
   </div>
 </div>
 ​

@@ -29,8 +29,8 @@
 </header>
 <!-- fin header -->
 <?php
-$input=!empty($_POST['search']) ? $_POST['search'] : '';
-$channel=!empty($_POST['channel']) ? $_POST['channel'] : '';
+$input=!empty($_GET['search']) ? $_GET['search'] : '';
+$channel=!empty($_GET['channel']) ? $_GET['channel'] : '';
 $search=$input;
 $apikey = "d1ef408bd1f0bcbea188be92af01fcf8";
 $sitename = "Movie trip";
