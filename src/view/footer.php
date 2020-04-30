@@ -5,7 +5,7 @@
     </div>
     <div class="card-body">
         <h5 class="card-title">Movie trip</h5>
-            <ul class="nav nav-pills nav-fill">
+            <ul class="nav nav-pills nav-fill" style="display: block;">
                 <li class="nav-item">
                     <a class="nav-link" href="#">FAQ</a>
                 </li>

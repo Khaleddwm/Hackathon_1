@@ -15,6 +15,7 @@
 <div class="jumbotron jumbotron-fluid">
     <div class="container-fluid">
         <h1 class="display-4">Vos envies de voyages sont mis à mal durant cette période de confinement ?</h1>
+        
         <?php
         for ($i = 0; $i < count($documentaireMovie); $i++){
             $urlKey = $url . $documentaireMovie[$i] . $key;
@@ -28,8 +29,14 @@
             $data = json_decode($data, true);
             }
         ?>
+<<<<<<< HEAD
         <a href="<?= $urlMovie . $documentaireMovie[$i] ?>" target="_blank"><img src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..."></a>
+=======
+        
+        <a  target="_blank "href="<?= $urlMovie . $documentaireMovie[$i] ?>"><img src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..." style="  padding-bottom: 20px;padding-top: 20px;"></a>
+>>>>>>> e1b0c6fab4f07ce9be1fbe14ac7b19f90b4caa86
         <?php } ?>
+        
         <?php include_once 'TripTv.php' ?>
         <?php
             for ($i = 0; $i < count($documentaireTv); $i++){
@@ -44,8 +51,15 @@
                 $data = json_decode($data, true);
                 }
                 ?>
+<<<<<<< HEAD
                 <a href="<?= $urlTv . $documentaireTv[$i] ?>" target="_blank"><img src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..."></a>
+=======
+              
+                <a href="<?= $urlTv . $documentaireTv[$i] ?>"><img  src="<?= picPath . $data['poster_path'] ?>" class="col-2" alt="..." style="padding-bottom: 20px; padding-top: 20px;"></a>
+>>>>>>> e1b0c6fab4f07ce9be1fbe14ac7b19f90b4caa86
             <?php } ?>
+            
+        
     </div>
 </div>
 
