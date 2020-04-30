@@ -29,21 +29,28 @@
     position: fixed;
     z-index: 2;
  }
+ 
  .form-inline {
   display: flex;
   justify-content: space-between;
   width: 40%;
 }
+
 .navbar-brand{
   color: lightgrey;
   font-weight: bolder
 }
+
 .nav-link {
   color: lightgrey;
   font-weight: bolder
 }
- }
-  footer {
-    background-color: #333;
-    color: white;
-  }
+  
+footer {
+  background-color: #333;
+  color: white;
+}
+
+img, iframe {
+  border-radius: 10%;
+}
